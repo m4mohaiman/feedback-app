@@ -1,18 +1,17 @@
-import React from 'react';
-import './Header.css';
+import React from 'react'
 
 const Header = () => {
-    return (
-        <div className='header p-2'>
-            <div className="container">
-                <div className="row">
-                    <div className="col-12 text-center">
-                        <h3 className='mb-0'>Feedback UI</h3>
-                    </div>
-                </div>
-            </div>
+  return (
+    <header>
+        <div className="container">
+            <h2>Feedback app</h2>
         </div>
-    );
-};
+    </header>
+  )
+}
 
-export default Header;
+
+
+ 
+
+export default Header
